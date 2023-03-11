@@ -1,0 +1,75 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color:  hsl(217, 54%, 11%);
+    font-family: 'Outfit', sans-serif;
+    font-size: 17px;
+    margin: 0 auto;
+    line-height: 1.6rem;
+}
+
+.card {
+    background-color: hsl(216, 50%, 16%);
+    border-radius: 15px;
+    position: absolute;
+    left: 45%;
+    top: 150px;
+    width: 350px;
+    height: 600px;
+    padding: 25px;
+    display: flex;
+    flex-direction: column;
+    box-shadow: 5px 20px 10px 20px hsl(217, 60%, 9%), 13px 25px 20px 40px hsl(217, 60%, 10%);
+}
+
+.equilibrium-img {
+    border-radius: 10px;
+    margin-bottom: 15px;
+}
+
+h3 {
+    color: hsl(0, 0%, 100%);
+    margin-bottom: 15px;
+}
+
+.content {
+    color: hsl(215, 51%, 70%);
+}
+
+.float-left {
+    float: left;
+    color: hsl(178, 100%, 50%);
+    font-size: 17px;
+}
+
+.float-right {
+    float: right;
+    font-size: 16px;
+}
+
+.bottom-gap {
+    padding-bottom: 20px;
+}
+
+aside {
+    border-top: 1px solid hsl(215, 51%, 70%);
+    padding-top: 20px;
+    font-size: 16px;
+}
+
+.creator-pic {
+    border: 1px solid hsl(0, 0%, 100%);
+    border-radius: 50%;
+    float: left;
+    margin-right: 20px;
+}
+
+.creator-name {
+    color:hsl(0, 0%, 100%);
+}
